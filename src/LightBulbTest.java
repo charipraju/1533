@@ -10,5 +10,11 @@ public class LightBulbTest {
 		b.setWatte(60);
 		assertEquals(60,b.getBulbWattage());
 	}
+	
+	public void testforsuccess() {
+		LightBulb b = new LightBulb();
+		b.setWatte(100);
+		assertEquals(100,b.getBulbWattage());
+	}
 
 }
